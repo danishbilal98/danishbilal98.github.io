@@ -1,0 +1,162 @@
+/*
+ * Light content theme
+ * -------------------------------------------------------------
+ * The original template used a near-black background (#222) for
+ * every content panel (.animated-section / .single-page-content),
+ * with light text designed to sit on that dark surface.
+ *
+ * This file flips those inner panels to a light background while
+ * leaving the outer page background and the left-hand header
+ * sidebar (still dark, with the indigo accent) untouched.
+ *
+ * Loaded after main.css, so identical selectors here simply win
+ * the cascade by source order.
+ */
+
+.animated-section,
+.single-page-content {
+  background: #fbeef5;
+  background: linear-gradient(135deg, #eaf3fc 0%, #fbeef5 100%);
+  color: #333333;
+}
+
+.animated-section h1,
+.animated-section h2,
+.animated-section h3,
+.animated-section h4,
+.animated-section h5,
+.animated-section h6,
+.single-page-content h1,
+.single-page-content h2,
+.single-page-content h3,
+.single-page-content h4,
+.single-page-content h5,
+.single-page-content h6 {
+  color: #1a1a1a;
+}
+
+/* Home hero */
+.title-block h2 {
+  color: #1a1a1a;
+}
+
+.title-block .sp-subtitle {
+  color: #6b6b6b;
+}
+
+/* Timeline (Education / Experience) */
+.timeline-second-style .divider {
+  background-color: #d8e7f5;
+}
+
+.timeline-second-style .divider:after {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.timeline-second-style .item-period {
+  color: #6b6b6b;
+}
+
+.timeline-second-style .item-company {
+  color: #6b6b6b;
+}
+
+/* Skill bars */
+.skills-second-style .skill-container {
+  background-color: #dcebf7;
+}
+
+.skills-second-style .skill-percentage {
+  border-color: #dcebf7;
+}
+
+.skills-second-style .skill-value {
+  color: #6b6b6b;
+}
+
+/* Certificates */
+.certi-logo {
+  background-color: #fce3ee;
+}
+
+.certi-logo i {
+  color: #6d5bf6;
+}
+
+.certi-id,
+.certi-date {
+  color: #6b6b6b;
+}
+
+.certificate-item {
+  border-color: #f3d3e3;
+}
+
+/* Contact info blocks + Fun Facts (shared .lm-info-block styling) */
+.lm-info-block {
+  background-color: #e7f2fb;
+  border-color: #cfe3f5;
+}
+
+.fun-fact {
+  background-color: #e7f2fb;
+  border-color: #cfe3f5;
+}
+
+.fun-fact-block-value {
+  color: #2b2b2b;
+}
+
+/* Blog cards */
+.blog-card {
+  background-color: #fce3ee;
+}
+
+.blog-card .post-info {
+  border-color: #f3d3e3;
+}
+
+.blog-card .post-date {
+  color: #6b6b6b;
+}
+
+/* Portfolio filters */
+.portfolio-filters li a {
+  color: #6b6b6b;
+}
+
+/* Contact form */
+.form-group label {
+  color: #6b6b6b;
+}
+
+.form-group-with-icon i {
+  color: #a0a0a0;
+}
+
+.form-control,
+.form-control:focus,
+input[type="search"],
+input[type="password"],
+input[type="text"] {
+  border-color: #cccccc;
+}
+
+/* Buttons inside content panels (e.g. the contact form's Send button) */
+.animated-section .btn-primary,
+.animated-section button,
+.animated-section input[type="submit"],
+.single-page-content .btn-primary,
+.single-page-content button,
+.single-page-content input[type="submit"] {
+  color: #333333;
+}
+
+.animated-section .btn-primary:hover,
+.animated-section button:hover,
+.animated-section input[type="submit"]:hover,
+.single-page-content .btn-primary:hover,
+.single-page-content button:hover,
+.single-page-content input[type="submit"]:hover {
+  color: #ffffff;
+}

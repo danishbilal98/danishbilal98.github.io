@@ -1,0 +1,27 @@
+<svg width="800" height="375" viewBox="0 0 800 375" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>FinWise - Python Finance Application</title>
+  <rect width="800" height="375" fill="#1a1a1a"/>
+
+  <line x1="0" y1="312" x2="800" y2="312" stroke="#333333" stroke-width="1"/>
+  <line x1="0" y1="250" x2="800" y2="250" stroke="#2a2a2a" stroke-width="1"/>
+  <line x1="0" y1="188" x2="800" y2="188" stroke="#2a2a2a" stroke-width="1"/>
+
+  <rect x="480" y="230" width="42" height="82" fill="#2d2d2d"/>
+  <rect x="540" y="190" width="42" height="122" fill="#2d2d2d"/>
+  <rect x="600" y="160" width="42" height="152" fill="#2d2d2d"/>
+  <rect x="660" y="120" width="42" height="192" fill="#0ba376" opacity="0.85"/>
+  <rect x="720" y="90" width="42" height="222" fill="#0ba376"/>
+
+  <polyline points="480,240 540,205 600,175 660,135 720,95" fill="none" stroke="#0ba376" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="480" cy="240" r="5" fill="#0ba376"/>
+  <circle cx="540" cy="205" r="5" fill="#0ba376"/>
+  <circle cx="600" cy="175" r="5" fill="#0ba376"/>
+  <circle cx="660" cy="135" r="5" fill="#0ba376"/>
+  <circle cx="720" cy="95" r="6" fill="#0ba376"/>
+
+  <circle cx="120" cy="150" r="46" fill="none" stroke="#0ba376" stroke-width="3"/>
+  <text x="120" y="163" font-family="Helvetica, Arial, sans-serif" font-size="46" font-weight="600" fill="#0ba376" text-anchor="middle">$</text>
+
+  <text x="60" y="245" font-family="Helvetica, Arial, sans-serif" font-size="42" font-weight="700" fill="#f5f5f5">FinWise</text>
+  <text x="60" y="278" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="400" fill="#a8a8a8">Python Finance Application</text>
+</svg>
